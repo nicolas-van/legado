@@ -5,9 +5,7 @@ before_deploy:
   - npm run build
 deploy:
   provider: script
-  script:
-    - echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > .npmrc
-    - npm publish
+  script: deploy.sh
   on:
     tags: true
     branch: master
