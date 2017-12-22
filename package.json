@@ -1,6 +1,6 @@
 {
   "name": "legado",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A very simple and minimalist inheritance system",
   "main": "dist/legado.bundle.js",
   "repository": {
