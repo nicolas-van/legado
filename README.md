@@ -26,3 +26,9 @@ Examples:
         return this.x() + this.b;
       },
     });
+
+To install:
+
+    npm install legado
+
+Or download it on https://unpkg.com/legado/
