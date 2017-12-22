@@ -1,0 +1,66 @@
+{
+  "name": "legado",
+  "version": "1.0.0",
+  "description": "A very simple and minimalist inheritance system",
+  "main": "dist/legado.bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolas-van/legado.git"
+  },
+  "keywords": [
+    "inheritance",
+    "class"
+  ],
+  "author": "nicolas-van",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolas-van/legado/issues"
+  },
+  "homepage": "https://github.com/nicolas-van/legado#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.13.1",
+    "eslint-plugin-compat": "^2.1.0",
+    "jest": "^22.0.4",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint src/**.js",
+    "lint:fix": "eslint --fix src/**.js",
+    "test": "npm run lint && npm run build && jest"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "plugins": [
+      "compat"
+    ],
+    "rules": {
+      "no-console": "off",
+      "indent": [
+        "error",
+        2
+      ],
+      "compat/compat": "error"
+    }
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "IE >= 9",
+    "not OperaMini all"
+  ]
+}
