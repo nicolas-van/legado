@@ -1,6 +1,6 @@
 {
   "name": "legado",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A very simple and minimalist inheritance system",
   "main": "dist/legado.bundle.js",
   "repository": {
@@ -10,6 +10,9 @@
   "keywords": [
     "inheritance",
     "class"
+  ],
+  "files": [
+    "dist/legado.bundle.js"
   ],
   "author": "nicolas-van",
   "license": "MIT",
