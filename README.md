@@ -2,6 +2,8 @@
 legado
 ======
 
+[![Build Status](https://travis-ci.org/nicolas-van/legado.svg?branch=master)](https://travis-ci.org/nicolas-van/legado)
+
 A very simple and minimalist inheritance system.
 
 Examples:
