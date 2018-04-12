@@ -2,7 +2,7 @@
 legado
 ======
 
-[![Build Status](https://travis-ci.org/nicolas-van/legado.svg?branch=master)](https://travis-ci.org/nicolas-van/legado)
+[![Build Status](https://travis-ci.org/nicolas-van/legado.svg?branch=master)](https://travis-ci.org/nicolas-van/legado) [![npm](https://img.shields.io/npm/v/legado.svg)](https://www.npmjs.com/package/legado)
 
 A very simple and minimalist inheritance system.
 
